@@ -22,6 +22,8 @@ int main() {
         case '/':
             cout << "Result: " << Function::divide(a, b) << endl;
             break;
-
+        default:
+            cout << "Incorrect operation!" << endl;
+            break;
     return 0;
 }
