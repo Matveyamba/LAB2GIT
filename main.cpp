@@ -19,6 +19,9 @@ int main() {
             cout << "Result: " << Function::multiply(a, b) << endl;
             break;    
 }
+        case '/':
+            cout << "Result: " << Function::divide(a, b) << endl;
+            break;
 
     return 0;
 }
