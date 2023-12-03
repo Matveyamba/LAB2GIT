@@ -13,3 +13,7 @@ double Function::divide(double a, double b) {
         return 0.0; // Можно заменить на другое значение или бросить исключение
     }
 }
+
+double Function::add(double a, double b) {
+    return a + b;
+}
