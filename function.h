@@ -5,6 +5,7 @@
 
 class Function {
 public:
+static double multiply(double a, double b);
 };
 
 #endif // FUNCTION_H
