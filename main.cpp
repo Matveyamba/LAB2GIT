@@ -15,7 +15,10 @@ int main() {
     cin >> operation;
 
     switch (operation) {
-    }
+	 case '*':
+            cout << "Result: " << Function::multiply(a, b) << endl;
+            break;    
+}
 
     return 0;
 }
